@@ -1,4 +1,4 @@
-FROM ubuntu:bionic
+FROM ubuntu:plucky
 
 # Creates a Ubuntu based containerised build environment to use as a base for building SD card images
 # Building a base image will save time in case of a re-build and/or premature failure
