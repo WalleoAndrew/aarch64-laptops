@@ -50,6 +50,10 @@ while [ $# -gt 0 ]; do
 	    NAME="Lenovo Yoga C630"
 	    DTBREAL=laptop-lenovo-yoga-c630.dtb
 	    ;;
+        huawei-planck)
+	    NAME="Huawei Matebook E 2019"
+	    DTBREAL=laptop-huawei-planck.dtb
+	    ;;
 	help|--help|-h|?)
 	    usage
 	    ;;

@@ -53,6 +53,9 @@ startup_checks()
     elif [ $DISTRO_VERSION == "eoan" ]; then
 	ISOURL=http://cdimage.ubuntu.com/ubuntu-server/daily/current
 	ISO=eoan-server-arm64.iso
+	elif [ $DISTRO_VERSION == "plucky" ]; then
+	ISOURL=http://cdimage.ubuntu.com/releases/25.04/release
+	ISO=ubuntu-25.04-live-server-arm64.iso
     else
 	print_red "Distro '$DISTRO_VERSION' not supported"
 	return 1
